@@ -1,5 +1,6 @@
 # Objetivo: criar uma função que recebe dois parametros (number, string)
 # a função deve virificar e exibir esses valores.
+from operator import length_hint
 
 # Recebe os valores do usuário
 minhaString = input('Digite um texto: ')
@@ -22,6 +23,7 @@ def imprimir_parametros(texto, numero):
         print(texto)
     else:
         print("texto inválido.")
+
     if isinstance(numero, int):
         print(numero)
     else:
